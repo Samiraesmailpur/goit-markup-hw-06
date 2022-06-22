@@ -717,6 +717,8 @@ img {
   padding-left: 16px;
   margin-right: 12px;
   background-color: var(--secondary-bg-color);
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
 }
 
 .email-form::placeholder {
@@ -748,7 +750,7 @@ img {
   padding: 12px 0;
   padding-left: 42px;
   cursor: pointer;
-
+  height: 40px;
   transition-property: border-radius, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -875,4 +877,5 @@ img {
   background-origin: border-box;
   background-size: contain;
   border-color: var(--accent-color);
+  background-color: #188ce8;
 }
